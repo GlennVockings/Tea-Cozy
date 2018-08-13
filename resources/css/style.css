@@ -1,0 +1,147 @@
+/* Body */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  align-items: center;
+  justify-content;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  display: block;
+}
+
+nav span {
+  text-decoration: underline;
+  color: seashell;
+  padding: 10px;
+}
+
+/* Mission */
+
+.title {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.titletext {
+ background-color: black;
+ width: 1200px;
+}
+
+/* Tea of the Month */
+
+.tom {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  width: 300px;
+  padding: 10px;
+}
+
+.tea img {
+  height: 200px;
+}
+
+.tea p {
+  margin-top: 10px;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  margin: auto;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.locations h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.shops {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.place {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  padding: 10px;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+  justify-content: center;
+}
+
+/* Contact Info */
+
+.info {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+}
+
+.info h2 {
+  margin-top: 5px;
+}
+
+.info p {
+  margin: auto;
+}
+
+/* copyright */
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+}
